@@ -50,6 +50,15 @@ public class Convert {
 		if(input.startsWith("6") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
 			return list.get("60")+"-"+list.get(input.charAt(1)+"");
 		}
+		if(input.startsWith("7") && input.length()==2 && !list.containsValue(input)){
+			return list.get("60")+"-"+Convert.num2text("1"+input.charAt(1));
+		}
+		if(input.startsWith("8") && input.length()==2 && !list.containsValue(input)){
+			return list.get("4")+"-"+Convert.num2text("2"+input.charAt(1));
+		}
+		if(input.startsWith("9") && input.length()==2 && !list.containsValue(input)){
+			return list.get("4")+"-"+Convert.num2text("20")+"-"+Convert.num2text("1"+input.charAt(1));
+		}
 		if(input.endsWith("1") && input.length()==2 && !list.containsValue(input)){
 			return list.get(input.charAt(0)+"0")+"-et-un";
 		}
