@@ -32,6 +32,28 @@ public class Convert {
 		if(list.containsKey(input)){
 			return list.get(input);
 		}
+		if(input.startsWith("1") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
+			return list.get("10")+"-"+list.get(input.charAt(1)+"");
+		}
+		if(input.startsWith("2") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
+			return list.get("20")+"-"+list.get(input.charAt(1)+"");
+		}
+		if(input.startsWith("3") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
+			return list.get("30")+"-"+list.get(input.charAt(1)+"");
+		}
+		if(input.startsWith("4") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
+			return list.get("40")+"-"+list.get(input.charAt(1)+"");
+		}
+		if(input.startsWith("5") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
+			return list.get("50")+"-"+list.get(input.charAt(1)+"");
+		}
+		if(input.startsWith("6") && input.length()==2 && !list.containsValue(input) && !input.endsWith("1")){
+			return list.get("60")+"-"+list.get(input.charAt(1)+"");
+		}
+		if(input.endsWith("1") && input.length()==2 && !list.containsValue(input)){
+			return list.get(input.charAt(0)+"0")+"-et-un";
+		}
+		
 		return null;
 	}
 	public static String text2num(String input) {
