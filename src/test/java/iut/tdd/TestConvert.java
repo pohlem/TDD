@@ -78,4 +78,28 @@ public class TestConvert {
 		public void test_num17text_seize () {
 			Assert.assertEquals("seize", Convert.num2text("16"));
 		}
+		@Test
+		public void test_num18text_vingt () {
+			Assert.assertEquals("vingt", Convert.num2text("20"));
+		}
+		@Test
+		public void test_num19text_trente () {
+			Assert.assertEquals("trente", Convert.num2text("30"));
+		}
+		@Test
+		public void test_num20text_quarente () {
+			Assert.assertEquals("quarente", Convert.num2text("40"));
+		}
+		@Test
+		public void test_num21text_cinquente () {
+			Assert.assertEquals("cinquente", Convert.num2text("50"));
+		}
+		@Test
+		public void test_num22text_soixante () {
+			Assert.assertEquals("soixante", Convert.num2text("60"));
+		}
+		@Test
+		public void test_num23text_cent () {
+			Assert.assertEquals("cent", Convert.num2text("100"));
+		}
 	}

@@ -23,7 +23,12 @@ public class Convert {
 		list.put("14", "quatorze");
 		list.put("15", "quinze");
 		list.put("16", "seize");
-		
+		list.put("20", "vingt");
+		list.put("30", "trente");
+		list.put("40", "quarente");
+		list.put("50", "cinquente");
+		list.put("60", "soixante");
+		list.put("100", "cent");
 		if(list.containsKey(input)){
 			return list.get(input);
 		}
