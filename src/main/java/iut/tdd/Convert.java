@@ -22,6 +22,8 @@ public class Convert {
 		list.put("13", "treize");
 		list.put("14", "quatorze");
 		list.put("15", "quinze");
+		list.put("16", "seize");
+		
 		if(list.containsKey(input)){
 			return list.get(input);
 		}

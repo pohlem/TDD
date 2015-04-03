@@ -74,4 +74,8 @@ public class TestConvert {
 		public void test_num16text_quinze () {
 			Assert.assertEquals("quinze", Convert.num2text("15"));
 		}
+		@Test
+		public void test_num17text_seize () {
+			Assert.assertEquals("seize", Convert.num2text("16"));
+		}
 	}
