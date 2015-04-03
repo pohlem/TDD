@@ -79,18 +79,6 @@ public class TestConvert {
 			Assert.assertEquals("seize", Convert.num2text("16"));
 		}
 		@Test
-		public void test_num18text_vingt () {
-			Assert.assertEquals("vingt", Convert.num2text("20"));
-		}
-		@Test
-		public void test_num19text_trente () {
-			Assert.assertEquals("trente", Convert.num2text("30"));
-		}
-		@Test
-		public void test_num20text_quarente () {
-			Assert.assertEquals("quarente", Convert.num2text("40"));
-		}
-		@Test
 		public void test_num21text_cinquente () {
 			Assert.assertEquals("cinquente", Convert.num2text("50"));
 		}
@@ -107,11 +95,103 @@ public class TestConvert {
 			Assert.assertEquals("dix-sept", Convert.num2text("17"));
 		}
 		@Test
+		public void test_num25text_dix_huit () {
+			Assert.assertEquals("dix-huit", Convert.num2text("18"));
+		}
+		@Test
+		public void test_num26text_dix_neuf () {
+			Assert.assertEquals("dix-neuf", Convert.num2text("19"));
+		}
+		@Test
+		public void test_num18text_vingt () {
+			Assert.assertEquals("vingt", Convert.num2text("20"));
+		}
+		@Test
+		public void test_num27text_vingt_et_un () {
+			Assert.assertEquals("vingt-et-un", Convert.num2text("21"));
+		}
+		@Test
+		public void test_num28text_vingt_deux () {
+			Assert.assertEquals("vingt-deux", Convert.num2text("22"));
+		}
+		@Test
+		public void test_num29text_vingt_trois () {
+			Assert.assertEquals("vingt-trois", Convert.num2text("23"));
+		}
+		@Test
+		public void test_num30text_vingt_quatre () {
+			Assert.assertEquals("vingt-quatre", Convert.num2text("24"));
+		}
+		@Test
+		public void test_num311ext_vingt_cinq () {
+			Assert.assertEquals("vingt-cinq", Convert.num2text("25"));
+		}
+		@Test
+		public void test_num32text_vingt_six () {
+			Assert.assertEquals("vingt-six", Convert.num2text("26"));
+		}
+		@Test
+		public void test_num33text_vingt_sept () {
+			Assert.assertEquals("vingt-sept", Convert.num2text("27"));
+		}
+		@Test
+		public void test_num34text_vingt_huit () {
+			Assert.assertEquals("vingt-huit", Convert.num2text("28"));
+		}
+		@Test
+		public void test_num35text_vingt_neuf () {
+			Assert.assertEquals("vingt-neuf", Convert.num2text("29"));
+		}
+		@Test
+		public void test_num19text_trente () {
+			Assert.assertEquals("trente", Convert.num2text("30"));
+		}
+		@Test
+		public void test_num36text_trente_et_un () {
+			Assert.assertEquals("trente-et-un", Convert.num2text("31"));
+		}
+		@Test
+		public void test_num37text_trente_deux () {
+			Assert.assertEquals("trente-deux", Convert.num2text("32"));
+		}
+		@Test
+		public void test_num38text_trente_trois () {
+			Assert.assertEquals("trente-trois", Convert.num2text("33"));
+		}
+		@Test
+		public void test_num39text_trente_quatre () {
+			Assert.assertEquals("trente-quatre", Convert.num2text("34"));
+		}
+		@Test
+		public void test_num40text_trente_cinq () {
+			Assert.assertEquals("trente-cinq", Convert.num2text("35"));
+		}
+		@Test
+		public void test_num41text_trente_six () {
+			Assert.assertEquals("trente-six", Convert.num2text("36"));
+		}
+		@Test
+		public void test_num42text_trente_sept () {
+			Assert.assertEquals("trente-sept", Convert.num2text("37"));
+		}
+		@Test
+		public void test_num43text_trente_huit () {
+			Assert.assertEquals("trente-huit", Convert.num2text("38"));
+		}
+		@Test
+		public void test_num44text_trente_neuf () {
+			Assert.assertEquals("trente-neuf", Convert.num2text("39"));
+		}
+		@Test
+		public void test_num20text_quarente () {
+			Assert.assertEquals("quarente", Convert.num2text("40"));
+		}
+		@Test
 		public void test_num24text_soixante_deux () {
 			Assert.assertEquals("soixante-deux", Convert.num2text("62"));
 		}
 		@Test
 		public void test_num25text_soixante_un () {
-			Assert.assertEquals("soixante et un", Convert.num2text("61"));
+			Assert.assertEquals("soixante-et-un", Convert.num2text("61"));
 		}
 	}
